@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <Style>
+
+        #A {
+
+            color: aquamarine;
+            background-color: grey;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+        }
+
+
+
+        /* #A:hover{
+
+            background-color: red;
+            border: 5px solid green;
+
+        } */
+
+       span:hover::before {
+        content: "";
+        display:  inline;
+        height: 10px;
+        width: 10px;
+        background-color: red;
+
+
+
+       }
+
+       p::first-line{
+
+        color: blueviolet;
+
+
+       }
+
+
+      .Hap {
+
+        border: 2px solid black;
+        border-radius:  4cm;
+        background-color: antiquewhite;
+        text-align: center;
+        margin-right: 500px;
+
+
+
+       }
+
+
+
+       .Hap:hover {
+
+            border: 2px solid black;
+            border-radius:  4cm;
+            background-color: rgb(178, 200, 134);
+            text-align: center;
+            margin-right: 500px;
+
+       }
+
+
+       .Hap:hover::before {
+
+        content: "🗸";
+        display: inline;
+        background-color: rgb(5, 247, 90);
+        color: black;
+       
+
+       }
+
+
+
+       .Hap:hover::after {
+
+        content: "you have completed";
+        display: inline;
+        background-color: rgb(220, 191, 225);
+        color: black;
+        padding-left: 5px;
+        margin-left: 15px;
+
+       }
+
+
+       .list::marker{
+
+        color: blue;
+        
+
+
+
+
+
+       }
+
+    </Style>
+
+
+    
+</head>
+<body>
+    <h1>Revision of pseudo selectors</h1>
+
+    <p> This the Psuedo class of first line to make first line beautiful <br>
+        
+        
+        
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, officiis.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima fugit optio inventore nam voluptas, et vitae exercitationem nostrum maiores dolor at hic magnam doloremque, fugiat ut a, quia consectetur labore. Neque, iste. Commodi mollitia nobis, quasi voluptates eum omnis laudantium veniam vero cupiditate ad minima similique natus eveniet. Atque, nobis labore. Perspiciatis animi impedit ipsam ab a natus reiciendis accusamus! Iure quaerat mollitia quisquam obcaecati. Alias aliquid exercitationem in voluptate deserunt commodi officiis ducimus natus rerum magnam sapiente asperiores expedita nisi debitis voluptates corrupti libero, id dolorum architecto repellat odio mollitia. Aut error soluta minima voluptatem earum pariatur ex laudantium!ss
+    </p>
+
+
+
+    <span> Name <input type="text" id="A"> <br></span> 
+    email <input type="email" name="" id="b">
+ <hr>
+
+
+ <div  >
+        <h3 class="Hap"> Check list</h3>
+
+
+        <p class="Hap"> Preapre food</p>
+        <p class="Hap"> Wash clothes </p>
+        <p class="Hap"> Service vechile</p>
+        
+        
+        <br>
+        
+         
+    <ol >
+    <li class="list">aApple</li>
+    <li class="list">gauvca</li>
+    <li class="list">peach</li>
+    <li class="list">kiwi</li>
+
+</ol>
+
+
+
+
+
+ </div>
+
+</body>
+</html>

@@ -1,0 +1,159 @@
+You can not modify anything in the HTML
+/* You can only modify the CSS file */
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+
+}
+
+
+body{
+     background-image: url("./assets/bg.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+
+.navbar{
+
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    /* justify-content:  space-around; */
+    height: 80px;
+    flex-basis: 100%;
+    
+
+}
+
+.logo{
+
+    border-right: 2px solid white;
+  padding-right: 80px;
+  padding-left: 30px;
+  Margin-left: 20opx;
+  margin-top: 15px;
+  align-self: center;
+  justify-content: center;
+  height: 40px;
+  margin-left: 30px;
+
+}
+
+
+.grow-list{
+
+    margin-right: 150px;
+    margin-left: 70px;
+   
+}
+
+.list{
+
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    /* gap: 3px; */
+  font-family: sans-serif;
+    justify-content: space-around;
+   
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: 500;  
+    margin-right: 100px; 
+    
+    
+}
+
+ul, li{
+
+    list-style: none;
+
+}
+
+.button-small{
+
+    background-color: #d726d1;
+    color: #ffffff;
+     height: 35px;
+    width: 180px;
+    border-radius: 7px;
+    margin-top: 3%;
+    margin-left: 400px;
+    font-size: 1.2em;
+    
+   
+}
+
+
+.list-item{
+  
+    left: 4px;
+    right: 4px;
+
+    justify-content: space-between;
+}
+
+/* .hero {
+
+    text-align: center;
+  
+    margin-top: 250px;
+    width: 50%;
+    margin-left: 300px;
+} */
+
+.hero{
+   
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    right: 20%;
+    color: #ffffff;
+    
+    
+    
+
+
+}
+
+.hero-heading{
+
+    font-size: 5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    text-indent: 40px;
+    margin-left: 10px;    
+    word-spacing: 1.5px;
+
+}
+
+.hero-description{
+
+    font-size: 2em;
+  
+    margin-left: 80px;
+    margin-top: 10px;
+    width: 1000px;
+    text-indent: 40px;
+
+  
+    
+}
+
+.button-large{
+
+    background-color: #d726d1;
+    color: #ffffff;
+    border-radius: 15px;
+    height: 80px;
+    width: 350px;
+    margin-left: 200px;
+    margin-top: 80px;
+    font-size: 1.6em;
+    font-weight: 800;
+}

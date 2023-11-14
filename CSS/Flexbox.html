@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex in CSS</title>
+
+    <style>
+
+
+        h1{
+            text-align: center;
+
+
+        }
+
+        .container {
+
+            display: flex;
+            border: 3px solid black;
+            height: 500px;
+            justify-content: center;
+            justify-content: space-around;
+            flex-flow: row nowrap;
+            
+            align-items: center;
+            margin: 50px;
+            
+            background-color: rgba(221, 211, 197, 0.525);
+
+        }
+
+        .item {
+
+            height: 170px;
+            width: 140px;
+            border: 2px solid black;
+            background-color: aquamarine;
+            align-content: center;
+            padding-top: 60px;
+            text-align: center;
+            font-size: 40px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: black;
+          
+            
+        }
+
+        nav div img{
+
+            margin-left: 50px;
+
+
+        }
+
+
+        #BX1:hover{
+            background-color: rgb(230, 77, 77);
+            border: 7px solid wheat;
+
+
+        }
+
+
+        
+        #BX2:hover{
+            background-color: rgb(243, 251, 6);
+            border: 7px solid green;
+    
+
+        }
+
+        #BX3:hover{
+            background-color: rgb(52, 64, 200);
+            border: 7px solid  black;
+
+
+        }
+
+
+        
+        
+          .container2 {
+
+            display: flex;
+            border: 3px solid blue;
+            height: 300px;
+            width: 850px;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+            background-color: rgba(215, 163, 215, 0.525);
+
+            }
+
+            .collection {
+
+            height: 130px;
+            width: 140px;
+            border: 2px solid black;
+            background-color: rgb(234, 255, 127);
+         
+
+
+            }
+
+         #A3{
+
+            order: -1;
+            flex-grow: 1;
+        } 
+           
+        #A5{
+
+            /* order: 1;
+            flex-shrink: 1; 
+             for short we can use flex property */
+        flex: 0 1 
+
+
+            } 
+
+        
+
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+    <h1>Let's Try Flexbox </h1>
+ 
+    <div class="container">
+    
+            <div class="item" id="BX1"  > <a href="#flex" style="color: black;  text-decoration: none;"> Box 1</a> </div>
+            <div class="item" id="BX2">Box 2</div>
+            <div class="item" id="BX3">Box 3</div>
+            <div class="item">Box 4</div>
+            <div class="item">Box 5</div>
+            <div class="item">Box 6</div>
+            <div class="item">Box 7</div>
+            <div class="item">Box 8</div>
+            <div class="item">Box 9</div>
+            <div class="item">Box 10</div>
+   
+    </div>
+
+
+    <div class="container2">
+
+        <div class="collection">Article 1</div>
+        <div class="collection">Article 2</div>
+        <div class="collection" id="A3">Article 3</div>
+        <div class="collection">Article 4</div>
+        <div class="collection" id="A5">Article 5</div>
+     
+
+
+
+    </div>
+    
+
+    <p>
+
+        ime ab, assumenda nisi dolorem accusamus. Quaerat minima numquam, placeat adipisci doloribus molestias culpa vitae velit officiis, exercitationem obcaecati eaque esse veritatis, quia quae temporibus! Inventore doloribus dicta aspernatur reprehenderit harum culpa iusto, libero, rem eos similique dolorum id quo minus reiciendis repellendus deleniti fuga, nihil quasi hic. Nulla molestiae nisi ullam ea odio, delectus quaerat repellat veniam ab, fugiat, ratione similique inventore ipsa? Fuga eum sed provident exercitationem corrupti, quae molestias neque perspiciatis enim modi totam culpa nobis expedita amet doloremque aliquam quo, quisquam ut quis aspernatur quibusdam? Pariatur magni enim ipsa illo similique sunt suscipit veniam tenetur nemo dolor numquam possimus sequi ratione, distinctio quod esse! Iste veritatis cumque velit vel expedita, accusantium eius tenetur unde quod explicabo repellendus sapiente ex rerum perferendis fuga nemo? Iure nemo aliquid consequuntur rem commodi voluptatibus voluptatem minima quis, inventore blanditiis reprehenderit, laborum amet incidunt nisi dolores quam excepturi unde enim fugit facilis ex omnis doloremque? Quae, ullam? Eligendi error eveniet, esse aliquid sapiente consectetur alias ex, tenetur recusandae repudiandae perferendis culpa deleniti magni fugit tempora animi ab hic dolores asperiores laborum architecto. Perspiciatis ad fuga, architecto obcaecati aliquid atque tempore rerum excepturi velit ut incidunt consectetur, itaque vel, rem pariatur officiis neque error quidem vitae aperiam doloremque dignissimos. Sint excepturi quisquam hic ullam vel quasi nulla corrupti qui? Provident, sit! Eligendi ullam adipisci minima provident laborum similique accusamus, labore omnis voluptatibus dolorem autem blanditiis sunt mollitia veritatis libero quia quasi, vitae repellendus tenetur soluta est dolorum animi! Dolore quae voluptatibus at aliquid debitis maxime, magnam, praesentium itaque iste eaque doloremque? Deserunt iusto fugit ipsam perspiciatis itaque asperiores unde dolor rerum facilis quo voluptatibus delectus repellendus, doloremque a consequuntur autem sit quidem aliquid eius id cupiditate at assumenda. Quam, voluptas perspiciatis!
+    </p>
+
+    <p id="flex"> Here about fex</p>
+
+</body>
+
+
+
+
+</html>

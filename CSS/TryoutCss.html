@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    
+    <style>
+     
+      /* universal selector */
+
+      *{ background-color: rgb(163, 225, 205);
+
+        color: black;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+      }
+      
+      /* individual selector */
+       
+      h1{
+         color: blueviolet;  
+         text-align: center;
+         background-color: azure;
+      }
+
+      
+      /* class and id selector */
+     
+      .C1{
+         color: chocolate;
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: small;
+
+      }
+
+      #id1 {
+
+            color: red;
+            background-color: yellowgreen; 
+      }
+
+      /* and selector (chained) */
+
+      li.bg-black.text-white{
+
+         color: darkmagenta;
+
+      }
+
+      
+      /* combined selector */
+      
+      span, pre{
+
+        border: 0.4cm solid blue ;
+        padding: 20px;
+        margin: 60px;
+
+      }
+
+      /* inside an element */
+
+      div p i {
+          
+        color:  #ed038b;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 170%;
+        
+
+      }
+
+
+      /* direct child */
+ 
+      div > li {
+
+        
+        border: 2px solid black ;
+        border-width:  .2cm;
+        
+        border-radius: 1cm;
+        
+
+      }
+      
+      
+      
+      section > p > b {
+
+          background-color: aliceblue;
+
+      }
+     
+      /* sibling  ~ or + */
+
+      .sibling ~ p  {
+
+        font-size: xx-large;
+
+      }
+
+
+      
+    </style>
+  </head>
+  <body>
+      <H1> Welcome to CSS class </H1> <br>
+    <div> Welcome to live class</div> <br>
+    <span>Span is just a span, nothing more</span>
+    <p>We all know paragraph</p>
+    <ul>
+      <li class="bg-black text-white">item1</li>
+      <li  class=" bg-black">item2</li>
+      <li >item3</li>
+      <li >item4</li>
+      <li id="id1">Apple</li>
+    </ul>
+
+    <div>
+      <p class="C1">Lorem ipsum <i>Hoa!</i> dolor sit amet.</p>
+      <li>awesome</li>
+      <ul>
+        <li>highlight me <a href="#">test</a></li>
+        <li>highlight me</li>
+      </ul>
+    </div>
+
+    <section>
+      <p >Test 1</p>
+      <p > <b>Science</b> Test 2</p>
+      <p>Test 3</p>
+      <p class="sibling" >Test 4</p>
+      <p>Test 5</p>
+    </section>
+
+    <pre style="text-align: center;">
+
+        johnny jhonny yes papa !
+        eating sugar ......
+    </pre>
+  </body>
+</html>

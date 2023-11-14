@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+
+   <style>
+
+    .container{
+
+        background-color: #808080;
+        height: 700px;
+        width: 600px;
+        display: grid;
+        /* grid-template-columns: 100px 100px;
+        grid-template-rows: 60px 160px 60px 60px; never written like this */
+      
+        grid-template-columns: repeat(4, 1fr); 
+        row-gap: 20px;
+        column-gap: 10px;
+        
+        /* 1fr is fracgtion of entire width */
+        
+    
+    }
+
+    #box1{
+
+        grid-column-start: 1;
+        grid-column-end: 3;
+
+
+    }
+
+    #box2{
+
+        grid-row-start: 2;
+        grid-row-end: 5;
+
+
+    }
+
+    .div{
+
+        /* height: 40px;
+        width: 30px; */
+        background-color: black;
+        border: 2px solid red
+    }
+
+
+   </style>
+
+
+
+</head>
+<body>
+    
+    <h1 style="text-align: center;"> Let's Try Grid</h1>
+
+   <div class="container">
+
+    <div class="div" id="box1"></div>
+    <div class="div"></div>
+    <div class="div"></div>
+    <div class="div" id="box2"></div>
+    <div class="div" ></div>
+    <div class="div" ></div>
+    <div class="div" ></div>
+    <div class="div" ></div>
+    <div class="div"></div>
+    <div class="div"></div>
+    <div class="div"></div>
+    <div class="div"></div>
+    <div class="div"></div>
+    <div class="div"></div>
+    <div class="div"></div>
+    <div class="div" ></div>
+    
+
+
+   </div>
+
+
+</body>
+</html>

@@ -1,0 +1,172 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+
+*{
+    margin: 0%;
+    padding: 0%;
+    
+
+}
+
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    gap: 60px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 40px;
+
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1400px;
+   
+    margin-right: 50px;
+    
+}
+
+.list-item{
+    font-size: 40px;
+    font-weight: 300;
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.list :first-child{
+    
+    padding-bottom: 7px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;     
+
+}
+
+.button-group{
+    display: flex;
+    margin-right: 100px;
+    gap: 30px;
+    align-items: top;
+    
+}
+
+.nav-button {
+    border: 3px solid black;
+    width: 200px;
+    border-radius: 20px;
+    height: 50px;
+    font-size: 30px;
+    background-color: transparent;
+    
+}
+
+.hero-container{
+     display: flex;
+     gap: 40px;
+     margin-left: 150px;
+     margin-right: 150px;
+     margin-top: 150px;
+
+}
+
+.hero-container :nth-child(5) {
+    position: absolute;
+
+}
+
+.square{
+
+    position: relative;
+    top: 330px;
+    left: 215px;
+}
+
+
+.hero-container-right{
+   
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.hero-heading{
+
+    font-size: 110px;
+    margin-top: 70px;
+}
+
+.hero-description{
+
+    font-size: 25px;
+    margin-top: 30px;
+    word-wrap: break-word;
+    width: 1000px;
+    margin-right: 70px;
+    color: rgba(27, 22, 22, 0.532);
+}
+
+.button-email{
+    margin-top: 100px;
+    border: 2px solid black;
+    height: 45px;
+    width: 320px;
+    border-radius: 15px;
+    margin-right: 30px;
+    font-size: 25px;
+    background-color: transparent;
+}
+.button-join{
+    margin-top: 100px;
+    border: 2px solid black;
+    height: 45px;
+    width: 250px;
+    border-radius: 15px;
+    margin-right: 30px;
+    font-size: 25px;
+    background-color: rgb(69, 67, 67);
+    color: white;
+}
+
+.contact-heading{
+
+    font-size: 30px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.icons{
+    margin-top: 30px;
+    display: flex;
+    gap: 40px;
+
+}
+
+.globe{
+    position: absolute;
+    right: 1200px;
+    top: 190px;
+   
+
+}
+
+.hero-container> span:nth-child(3){
+
+    position: relative;
+    top: -50px;
+    right: -996px;
+    height: 70px;
+}
+
+.hero-container> span:nth-child(2){
+
+    position: relative;
+    top: 700px;
+    right: -296px;
+    
+    height: 70px;
+}
+
